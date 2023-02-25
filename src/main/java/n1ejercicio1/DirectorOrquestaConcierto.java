@@ -9,20 +9,20 @@ public class DirectorOrquestaConcierto {
 		
 		/* Cargamos la clase y la instaciamos */
 		
-		Viento viento = new Viento();
+		Viento viento = new Viento("viento", 222.33);
 		
 		
 		/*  Instanciamos la clase ya cargada  */
-		Viento viento2  = new Viento();
+		Viento viento2  = new Viento("mozart", 2222.33);
 		
 		
 		/* Al acceder a la variable estatica  cargamos la clase */
 		
 		Cuerda.cuerda++;
 		
-		Cuerda cuerda = new Cuerda();
+		Cuerda cuerda = new Cuerda("cuerda343", 7777.55);
 		
-		Percusion percusion = new Percusion();
+		Percusion percusion = new Percusion("percusionmio", 444444.44);
 		
 		
 		/*  Cada instrumento lo ponemos a tocar con su metodo correspondiente de la interface Instrumento */

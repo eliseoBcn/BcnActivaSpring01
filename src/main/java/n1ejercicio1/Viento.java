@@ -1,6 +1,6 @@
 package n1ejercicio1;
 
-public class Viento implements  Instrumento  {
+public class Viento  extends  Instrumento  {
 	
 
 	static {
@@ -11,6 +11,12 @@ public class Viento implements  Instrumento  {
 		System.out.println("Mensaje  bloque de inicializacion.  Ejecucion antes de la instancion del objeto Viento");
 	
 	}
+	
+    public Viento  (String nombre, Double precio ) { 
+			 super(nombre,precio);
+			 
+			  } 
+	   
 	public void tocar() {
 		  
 		  System.out.println("Està sonant un instrument de vent");
