@@ -16,7 +16,7 @@ public class Cuerda extends   Instrumento  {
 	 
    } 
    
-   
+   @Override 
    public void tocar() {
 		  
 		  System.out.println("Està sonant un instrument de corda");
